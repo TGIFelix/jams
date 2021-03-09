@@ -3,8 +3,9 @@
 usage:
 
 ```shell
-npx degit tgifelix/reactjs-tailwindcss
-npm install
+npx degit tgifelix/jams/react
+yarn install
+yarn start
 ```
 
 ![react x tailwind](./src/logo.svg)
