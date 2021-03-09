@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy('src/styles')
     return {
       passthroughFileCopy: true,
       dir: {
