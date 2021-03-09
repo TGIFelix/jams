@@ -1,7 +1,11 @@
 {
   "name": "11ty",
   "version": "1.0.0",
-  "author": "Felix Swinkels (https://tgifelix.com)",
+  "author": {
+    "name": "Felix Swinkels",
+    "email": "info@tgifelix.com",
+    "url": "https://www.tgifelix.com"
+  },
   "description": "11ty Boilerplate",
   "keywords": ["11ty", "eleventy", "boilerplate", "jams", "jamstack"],
   "license": "MIT",
