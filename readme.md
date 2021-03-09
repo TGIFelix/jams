@@ -1,6 +1,6 @@
 # Jams
 
-Collection of boilerplates I'm working on.
+Collection of boilerplates I'm working with.
 
 usage:
 
