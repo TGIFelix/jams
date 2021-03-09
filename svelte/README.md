@@ -4,6 +4,6 @@ usage:
 
 ```shell
 npx degit tgifelix/jams/svelte
-npm install
+npm i
 npm run dev
 ```
