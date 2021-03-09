@@ -1,15 +1,15 @@
 {
   "name": "11ty",
   "version": "1.0.0",
-  "description": "",
+  "author": "Felix Swinkels (https://tgifelix.com)",
+  "description": "11ty Boilerplate",
+  "keywords": ["11ty", "eleventy", "boilerplate", "jams", "jamstack"],
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy"
     },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
   }
