@@ -1,6 +1,6 @@
 ---
 title: 11ty bp
-layout: layouts/base.njk
+layout: layout.njk
 tags:
   - nav
 navtitle: Home

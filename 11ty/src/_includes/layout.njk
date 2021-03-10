@@ -6,10 +6,11 @@
     <title>
       {{ renderData.title or title or metadata.title }}
     </title>
-    <meta
-      name="Description"
-      content="" />
-      <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta name="Description" content="" />
+    {% set css %}{% include "style.css" %}{% endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
   </head>
 
   <body>
@@ -25,4 +26,10 @@
       {{ content | safe }}
     </main>
   </body>
+  
+  {% set js %}{% include "script.js" %}{% endset %}
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
+
 </html>
