@@ -7,14 +7,24 @@
     "url": "https://www.tgifelix.com"
   },
   "description": "11ty Boilerplate",
-  "keywords": ["11ty", "eleventy", "boilerplate", "jams", "jamstack"],
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "boilerplate",
+    "jams",
+    "jamstack"
+  ],
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy"
-    },
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.3",
+    "terser": "^5.6.0"
   }
 }
